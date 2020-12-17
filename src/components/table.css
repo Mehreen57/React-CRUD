@@ -1,0 +1,37 @@
+.container{
+    width: 1190px;
+    margin:30px auto;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th, td {
+    padding: 1.28rem;
+    text-align: left;
+    border: 1px solid #ccc;
+    position: relative;
+  }
+
+  .clickable__row:hover{
+    cursor: pointer;
+    background: #ccc;
+  }
+  button{
+    width: 60px;
+    position: absolute;
+    right: 10px;
+  }
+  .btn-success{
+    right: 70px;
+  }
+
+  #dropdown-menu-align-right{
+    width: 100%;
+    top: 0;
+    /* background: #fff; */
+    border: none;
+    /* color: #444; */
+    position: absolute;
+    top: -20px;
+  }
